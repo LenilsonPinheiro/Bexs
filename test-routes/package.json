@@ -1,0 +1,25 @@
+{
+  "name": "rotas",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "MIT",
+
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^8.0.8"
+  },
+  "scripts": {
+    "start-server": "node server.js",
+    "start-server-dev": "nodemon server.js",
+    "best-flight": "node src/console/terminal.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^25.2.3",
+    "nodemon": "^2.0.2",
+    "request-promise": "^4.2.5"
+  }
+}
